@@ -1,0 +1,53 @@
+.AppBG {
+   background: url("https://upload.wikimedia.org/wikipedia/commons/9/92/Elegant_Background-14.jpg");
+}
+
+.container {
+  max-width: 350px;
+  margin-top: 50px;
+  background: linear-gradient(45deg, #63BAF2, #5F8EE8, #69C3FF);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 45px;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  color: white;
+}
+
+#display {
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  border-radius: 25px;
+}
+
+.card-body {
+  font-size: 3rem;
+}
+
+#drum-machine {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: auto;
+  gap: 5px;
+  justify-content: center;
+}
+
+.drum-pad {
+  font-family: 'Staatliches', cursive;
+  width: 65px;
+  height: 65px;
+  margin: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.volume {
+  font-family: 'Staatliches', cursive;
+  font-size: 2em;
+  color: #FFFF;
+}
+
+#footer {
+  font-family: 'Covered By Your Grace', cursive;
+}
